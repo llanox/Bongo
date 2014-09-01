@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, SimpleAdapterActivity!</string>
+    <string name="app_name">ExampleAdapters</string>
+    <string name="tv_cancion">Canción</string>
+    <string name="tv_reproducciones">8 reproducciones</string>
+    <string name="title_activity_lista_clase4">ListaClase4</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="lb_ejemplo_clase">Ejemplo Clase 4</string>
+    <string name="lb_btn_ejemplo">Ejemplo Clase</string>
+    <string name="title_activity_adapter_personalizado_clase4">AdapterPersonalizadoClase4</string>
+    <string name="title_activity_lista_reproduccion">ListaReproduccion</string>
+
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+
+    >
+
+    <ImageView
+        android:id="@+id/iv_foto_album"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="8dp"
+ 
+        android:src="@drawable/jukebox" />
+
+    <TextView
+        android:id="@+id/tv_nombre_cancion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/iv_foto_album"
+        android:layout_toRightOf="@+id/iv_foto_album"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/tv_album"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tv_nombre_cancion"
+        android:layout_toRightOf="@+id/iv_foto_album"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tv_artista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tv_album"
+        android:layout_toRightOf="@+id/iv_foto_album"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tv_duracion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/ib_media"
+        android:layout_toRightOf="@+id/ib_media"
+        android:gravity="center"
+        android:text="TextView" />
+
+    <ProgressBar
+        android:id="@+id/pb_cancion"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_duracion"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tv_duracion" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="#000000" />
+
+    <ImageButton
+        android:id="@+id/ib_media"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/iv_foto_album"
+        android:layout_below="@+id/tv_artista"
+        android:src="@android:drawable/ic_media_play" />
+
+</RelativeLayout>
